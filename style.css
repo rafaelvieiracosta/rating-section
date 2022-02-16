@@ -54,6 +54,7 @@ body::after {
   max-width: 16ch;
   font-size: 3rem;
   color: #0b0c12;
+  line-height: 1;
 }
 
 .titulo h1 span {

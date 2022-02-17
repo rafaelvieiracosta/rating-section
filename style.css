@@ -219,15 +219,6 @@ body::after {
   }
 }
 
-@media (max-width: 461px) {
-  .titulo {
-    min-width: 220px;
-  }
-  .estrelas {
-    min-width: 220px;
-  }
-}
-
 @media (max-width: 545px) {
   .estrelas > div {
     flex-wrap: wrap;
@@ -240,3 +231,27 @@ body::after {
     height: initial;
   }
 }
+
+@media (max-width: 461px) {
+  .titulo {
+    min-width: 220px;
+  }
+  .estrelas {
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 374px) {
+  body::before {
+    width: 0;
+    height: 0;
+  }
+
+  body::after {
+    width: 0;
+    height: 0;
+  }
+}
+
+
+
